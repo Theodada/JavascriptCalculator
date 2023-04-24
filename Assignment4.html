@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Assignment4.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h4>DESIGN OF JAVASCRIPT CALCULATOR</h4>
+    </header>
+    <div>
+      <input type="text" id="result" readonly>
+    </div>
+    <div class="press">
+      <button onclick="buttonPressed('1')">1</button>
+      <button onclick="buttonPressed('2')">2</button>
+      <button onclick="buttonPressed('3')">3</button>
+      <button onclick="setOperation('+')">+</button>
+    </div>
+    <div class="press">
+      <button onclick="buttonPressed('4')">4</button>
+      <button onclick="buttonPressed('5')">5</button>
+      <button onclick="buttonPressed('6')">6</button>
+      <button onclick="setOperation('-')">-</button>
+    </div>
+    <div class="press">
+      <button onclick="buttonPressed('7')">7</button>
+      <button onclick="buttonPressed('8')">8</button>
+      <button onclick="buttonPressed('9')">9</button>
+      <button onclick="setOperation('*')">*</button>
+    </div>
+    <div>
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="buttonPressed('0')">0</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="setOperation('/')">/</button>
+      
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="Assignment4.js">
+
+</script>
+
+</body>
+
+</html>
